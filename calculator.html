@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Calculator </title>
+</head>
+
+<body>
+
+<form name='myform'>
+<table border=2 bgcolor='cyan'>
+
+<tr> 
+	<td colspan=4> <input type="text" name="input"></td>
+</tr>
+<tr>
+	<td> <input type="button" value="1"  Onclick=myform.input.value+='1'> </td>
+	<td> <input type="button" value="2" Onclick=myform.input.value+='2'> </td>
+	<td> <input type="button" value="3" Onclick=myform.input.value+='3'> </td>
+	<td> <input type="button" value="4" Onclick=myform.input.value+='4'> </td>
+</tr>
+
+<tr>
+	<td> <input type="button" value="5" Onclick=myform.input.value+='5'> </td>
+	<td> <input type="button" value="6" Onclick=myform.input.value+='6'> </td>
+	<td> <input type="button" value="7" Onclick=myform.input.value+='7'> </td>
+	<td> <input type="button" value="8" Onclick=myform.input.value+='8'> </td>
+</tr>
+<tr>
+	<td> <input type="button" value="9" Onclick=myform.input.value+='9'> </td>
+	<td> <input type="button" value="0" Onclick=myform.input.value+='0'> </td>
+	<td> <input type="button" value="+" Onclick=myform.input.value+='+'> </td>
+	<td> <input type="button" value="-" Onclick=myform.input.value+='-'> </td>
+</tr>
+<tr>
+	<td> <input type="button" value="X" Onclick=myform.input.value+='*'> </td>
+	<td> <input type="button" value="/" Onclick=myform.input.value+='/'> </td>
+	<td> <input type="button" value="=" Onclick=myform.input.value=eval(myform.input.value)> </td>
+	<td> <input type="button" value="C" Onclick=myform.input.value=''> </td>
+</tr>
+</table>
+
+</form>
+</body>
+
+
+</html>
